@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package pet.v1;
 
+//option go_package = "github.com/satya-dillikar/goprojects/buf-tour/petstore/gen/proto/go/pet/v1;petv1";
 option go_package = "github.com/satya-dillikar/goprojects/buf-tour/petstore/gen/proto/go/pet/v1;petv1";
 
 import "google/type/datetime.proto";
