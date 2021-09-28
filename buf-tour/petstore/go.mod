@@ -1,4 +1,4 @@
-module github.com/satya-dillikar/goprojects/bufbuild/buf-tour/petstore/gen/proto/go/pet/v1
+module github.com/satya-dillikar/goprojects/buf-tour/petstore/gen/proto/go/pet/v1
 
 go 1.17
 
