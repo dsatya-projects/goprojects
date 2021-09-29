@@ -53,3 +53,7 @@ go mod init github.com/satya-dillikar/goprojects/grpc-example/greeter_client
 go mod tidy
 GOPROXY=proxy.golang.org go list -m github.com/satya-dillikar/goprojects/grpc-example/helloworld
 go run main.go Alice
+
+git add greeter_server greeter_client README.txt
+git commit -m "greeter_server greeter_client code to test"
+git push origin main
